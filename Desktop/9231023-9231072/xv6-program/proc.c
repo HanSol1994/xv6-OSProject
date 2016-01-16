@@ -20,6 +20,7 @@ extern void trapret(void);
 
 static void wakeup1(void *chan);
 
+
 void
 pinit(void)
 {
@@ -72,6 +73,9 @@ found:
 
   return p;
 }
+
+
+
 
 //PAGEBREAK: 32
 // Set up first user process.
